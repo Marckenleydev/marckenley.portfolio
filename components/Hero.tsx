@@ -30,7 +30,7 @@ const Hero = () => {
          words='Transforming Concepts into Seamless Experiences' />
 
          <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-1xl'>
-          Hi, I&apos;m Marckenley a Java | React Developer based in Turkey(Eastern Europe)
+          Hi, I&apos;m Marckenley a Java | React Developer based in UAE/Dubai
          </p>
          <a href='#about'><MagicButton 
          title="Show my works"
