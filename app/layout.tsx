@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Marckenley's Portfolio",
-  description: "Spring boot & angular portfolio",
+  description: "Spring boot & Next portfolio",
 };
 
 export default function RootLayout({
@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/jsm-logo.png" sizes="any" />
+        <link rel="icon" href="spring-boot-img.png" sizes="any" />
       </head>
       <body className={inter.className}>
         <ThemeProvider

@@ -78,14 +78,14 @@ export const navItems = [
       iconLists: ["/react.svg","/spring.svg", "/tail.svg", "/ts.svg",  "/c.svg"],
       "link": "https://ecomvdashboard.netlify.app"
     },
-    // {
-    //   id: 2,
-    //   title: "Yoom - Video Conferencing App",
-    //   des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    //   img: "/p2.svg",
-    //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    //   link: "https://github.com/adrianhajdin/zoom-clone",
-    // },
+     {
+       "id": 2,
+       "title": "Plus Medical Booking Aplication",
+       "desc": "A Doctor Booking App that connects patients with doctors for easy appointment scheduling. Patients can browse doctor profiles, book appointments, and receive notifications, while doctors manage their schedules efficiently—all in a secure and user-friendly platform",
+       "img": "/doctorbooking.jpeg",
+       iconLists: ["/react.svg","/spring.svg", "/tail.svg", "/ts.svg",  "/c.svg"],
+       "link": "https://plusmedical.netlify.app/",
+     },
 
   ];
   
