@@ -30,7 +30,7 @@ const Hero = () => {
          words='Transforming Concepts into Seamless Experiences' />
 
          <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-1xl'>
-          Hi, I&apos;m Marckenley, a Software Developer based in Dubai, UAE.
+          Hi, I&apos;m Marckenley, a Java Software Developer based in Dubai, UAE.
          </p>
          <a href='#about'><MagicButton 
          title="Show my works"
