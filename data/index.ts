@@ -72,20 +72,49 @@ export const navItems = [
   export const projects = [
     {
       "id": 1,
+      "title": "Apneck ecommerce",
+      "desc": "full-stack eCommerce platform that provides a seamless shopping experience for users. The backend, built with Spring Boot, ensures secure authentication, order management, and payment integration. The frontend, powered by React and styled with Tailwind CSS, delivers a fast and responsive UI.",
+      "img": "/apneck.jpeg",
+      iconLists: ["/spring.svg","/react.svg", "/tail.svg", "/ts.svg",  "/postgresql.svg"],
+      "link": "https://apneckstore.netlify.app/",
+      "github":"https://github.com/Marckenleydev/APNECK_STORE_SPRINGBOOT_AND_REACT"
+    },
+    {
+      "id": 2,
       "title": "EcomVision Dashboard",
-      "desc": "A comprehensive dashboard for e-commerce analytics and management using  Spring boot, Spring Security, React.js and MongoDb .",
+      "desc": "A comprehensive full-stack dashboard for e-commerce analytics and management using  Spring boot, Spring Security, React.js and PostgreSQL .",
       "img": "/dashboard.jpeg",
-      iconLists: ["/react.svg","/spring.svg", "/tail.svg", "/ts.svg",  "/c.svg"],
-      "link": "https://ecomvdashboard.netlify.app"
+      iconLists: ["/spring.svg","/react.svg", "/tail.svg", "/ts.svg",  "/mongodb.svg"],
+      "link": "https://ecomvdashboard.netlify.app",
+      "github":"https://github.com/Marckenleydev/spring-ecomvision_CI-CD-Pipeline-SpringBoot"
     },
      {
-       "id": 2,
+       "id": 3,
        "title": "Plus Medical Booking Aplication",
-       "desc": "A Doctor Booking App that connects patients with doctors for easy appointment scheduling. Patients can browse doctor profiles, book appointments, and receive notifications, while doctors manage their schedules efficiently—all in a secure and user-friendly platform",
+       "desc": "A full-stack Doctor Booking App that connects patients with doctors for easy appointment scheduling. Patients can browse doctor profiles, book appointments, and receive notifications, while doctors manage their schedules efficiently—all in a secure and user-friendly platform",
        "img": "/doctorbooking.jpeg",
-       iconLists: ["/react.svg","/spring.svg", "/tail.svg", "/ts.svg",  "/c.svg"],
+       iconLists: ["/spring.svg","/react.svg", "/tail.svg", "/ts.svg",  "/postgresql.svg"],
        "link": "https://plusmedical.netlify.app/",
+       "github":"https://github.com/Marckenleydev/Plus.Medical.Backend-SpringBoot"
      },
+     {
+      "id": 4,
+      "title": "MealMate – Online Food Ordering Platform",
+      "desc": "MealMate is a full-stack modern and efficient food ordering platform designed to connect users with their favorite restaurants. The system ensures a seamless ordering experience with real-time order tracking, secure payments, and personalized recommendations.",
+      "img": "/mealmate.jpeg",
+      iconLists: ["/nodejs.svg","/react.svg","/stripe.svg", "/tail.svg", "/ts.svg",  "/mongodb.svg"],
+      "link": "https://mern-mealmate-food-ordering-app-frontend.onrender.com",
+      "github":"https://github.com/Marckenleydev/mern-mealmate-food-ordering-app-backend"
+    },
+    {
+      "id": 5,
+      "title": "NestBooking Application",
+      "desc": "NestBooking is a hotel booking platform designed to provide a smooth and efficient experience for travelers and hotel owners. It allows users to search, book, and manage accommodations effortlessly, while hotel owners can list and manage their properties.",
+      "img": "/nestbooking.jpeg",
+      iconLists: ["/nodejs.svg","/react.svg","/stripe.svg", "/tail.svg", "/ts.svg",  "/mongodb.svg"],
+      "link": "https://nestsbooking-frontend.onrender.com",
+      "github":"https://github.com/Marckenleydev/nestsbooking-backend-node.js"
+    },
 
   ];
   
