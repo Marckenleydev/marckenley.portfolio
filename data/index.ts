@@ -71,6 +71,42 @@ export const navItems = [
   
   export const projects = [
     {
+      "id": 6,
+      "title": "Inventory Management",
+     "desc":"Full-stack Inventory Management system using Node.js, AWS (EC2, S3, RDS, Amplify), Next.js, and Prisma. It provides a seamless inventory and order management experience, along with payment integration. The frontend, powered by Next.js and styled with Tailwind CSS, delivers a fast and responsive UI.",
+      "img": "/inventory.jpeg",
+      iconLists: ["/nodejs.svg","/next.svg","/aws.svg","/prisma_dark.svg", "/tail.svg", "/ts.svg",  "/postgresql.svg"],
+      "link": "https://master.d1nymif3hn5sgc.amplifyapp.com/",
+      "github":"https://github.com/Marckenleydev/inventory-management"
+    },
+    {
+      "id": 7,
+      "title": "Advanced Authentication",
+      "desc": "Advanced Authentication Using Node.js,AWS,MongoDB React.js,Prisma This application provides a secure and scalable authentication system with role-based access control (RBAC), OTP, and JWT-based token management. It supports user registration, login, password recovery, and adaptive security policies. Designed for high-performance applications, it ensures data protection and compliance with industry standards. 🚀",
+      "img": "/advance_auth.png",
+      iconLists: ["/nodejs.svg","/react.svg", "/tail.svg", "/ts.svg",  "/mongodb.svg"],
+      "link": "https://advance-authentication-node-js.vercel.app/",
+      "github":"https://github.com/Marckenleydev/advance-authentication-Node.JS"
+    },
+    {
+      "id": 4,
+      "title": "MealMate – Online Food Ordering Platform",
+      "desc": "MealMate is a full-stack modern and efficient food ordering platform designed to connect users with their favorite restaurants. The system ensures a seamless ordering experience with real-time order tracking, secure payments, and personalized recommendations.",
+      "img": "/mealmate.jpeg",
+      iconLists: ["/nodejs.svg","/react.svg","/stripe.svg", "/tail.svg", "/ts.svg",  "/mongodb.svg"],
+      "link": "https://mern-mealmate-food-ordering-app-frontend.onrender.com",
+      "github":"https://github.com/Marckenleydev/mern-mealmate-food-ordering-app-backend"
+    },
+    {
+      "id": 5,
+      "title": "NestBooking Application",
+      "desc": "NestBooking is a hotel booking platform designed to provide a smooth and efficient experience for travelers and hotel owners. It allows users to search, book, and manage accommodations effortlessly, while hotel owners can list and manage their properties.",
+      "img": "/nestbooking.jpeg",
+      iconLists: ["/nodejs.svg","/react.svg","/stripe.svg", "/tail.svg", "/ts.svg",  "/mongodb.svg"],
+      "link": "https://advance-authentication.netlify.app",
+      "github":"https://github.com/Marckenleydev/nestsbooking-backend-node.js"
+    },
+    {
       "id": 1,
       "title": "Apneck ecommerce",
       "desc": "full-stack eCommerce platform that provides a seamless shopping experience for users. The backend, built with Spring Boot, ensures secure authentication, order management, and payment integration. The frontend, powered by React and styled with Tailwind CSS, delivers a fast and responsive UI.",
@@ -97,24 +133,7 @@ export const navItems = [
        "link": "https://plusmedical.netlify.app/",
        "github":"https://github.com/Marckenleydev/Plus.Medical.Backend-SpringBoot"
      },
-     {
-      "id": 4,
-      "title": "MealMate – Online Food Ordering Platform",
-      "desc": "MealMate is a full-stack modern and efficient food ordering platform designed to connect users with their favorite restaurants. The system ensures a seamless ordering experience with real-time order tracking, secure payments, and personalized recommendations.",
-      "img": "/mealmate.jpeg",
-      iconLists: ["/nodejs.svg","/react.svg","/stripe.svg", "/tail.svg", "/ts.svg",  "/mongodb.svg"],
-      "link": "https://mern-mealmate-food-ordering-app-frontend.onrender.com",
-      "github":"https://github.com/Marckenleydev/mern-mealmate-food-ordering-app-backend"
-    },
-    {
-      "id": 5,
-      "title": "NestBooking Application",
-      "desc": "NestBooking is a hotel booking platform designed to provide a smooth and efficient experience for travelers and hotel owners. It allows users to search, book, and manage accommodations effortlessly, while hotel owners can list and manage their properties.",
-      "img": "/nestbooking.jpeg",
-      iconLists: ["/nodejs.svg","/react.svg","/stripe.svg", "/tail.svg", "/ts.svg",  "/mongodb.svg"],
-      "link": "https://nestsbooking-frontend.onrender.com",
-      "github":"https://github.com/Marckenleydev/nestsbooking-backend-node.js"
-    },
+   
 
   ];
   
