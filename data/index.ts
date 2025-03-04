@@ -74,7 +74,7 @@ export const navItems = [
       "id": 8,
       "title": "Project Management",
      "desc":"Full-stack Project Management system using Node.js, AWS (EC2, S3, RDS, Amplify,Copgnito), Next.js, and Prisma. is a comprehensive solution that streamlines project planning, task management, and team collaboration, powered by Next.js and styled with Tailwind CSS, delivers a fast and responsive UI.",
-      "img": "/projectmanagment-.jpg",
+      "img": "/projectmanagment-.jpeg",
       iconLists: ["/nodejs.svg","/next.svg","/aws.svg","/prisma_dark.svg", "/tail.svg", "/ts.svg",  "/postgresql.svg"],
       "link": "https://master.d5zwy9v28h54v.amplifyapp.com",
       "github":"https://github.com/Marckenleydev/project-management-NODEJS-POSTGRESQL-NEXTJS-AWS"
