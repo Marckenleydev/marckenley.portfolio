@@ -80,6 +80,15 @@ export const navItems = [
       "github":"https://github.com/Marckenleydev/project-management-NODEJS-POSTGRESQL-NEXTJS-AWS"
     },
     {
+      "id": 9,
+      "title": "Real Estate web Application",
+     "desc":"Real Estate Rental Properties Tenants, Managers, using Node.js, AWS (EC2, S3, RDS, Amplify,Copgnito), Next.js, and Prisma. is a comprehensive solution that streamlines project planning, task management, and team collaboration, powered by Next.js and styled with Tailwind CSS, delivers a fast and responsive UI.",
+      "img": "/realestate.jpeg",
+      iconLists: ["/nodejs.svg","/next.svg","/aws.svg","/prisma_dark.svg", "/tail.svg", "/ts.svg",  "/postgresql.svg"],
+      "link": "https://master.d2bse64yhgd7b0.amplifyapp.com",
+      "github":"https://github.com/Marckenleydev/real-estate-prod"
+    },
+    {
       "id": 6,
       "title": "Inventory Management",
      "desc":"Full-stack Inventory Management system using Node.js, AWS (EC2, S3, RDS, Amplify), Next.js, and Prisma. It provides a seamless inventory and order management experience, along with payment integration. The frontend, powered by Next.js and styled with Tailwind CSS, delivers a fast and responsive UI.",
